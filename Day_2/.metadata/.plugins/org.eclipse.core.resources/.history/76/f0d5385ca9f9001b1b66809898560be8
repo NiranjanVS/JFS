@@ -1,0 +1,34 @@
+package com.telstra.jdbc;
+
+import java.sql.*;
+
+public class JDBCInsertDemo {
+	
+	public static void main(String[] args) {
+		
+		String url = "jdbc:mysql://localhost:3306:telstra";
+		
+		String username = "root";
+		String password = "Abhijeet";
+		
+		String insertCommand = "Insert into employee values (8091, 'Abhijeet', 'TSE'),(2345, 'Chinmay','Network');";
+		
+		int i=0;
+		
+		Connection cn = null;
+		Statement st = null;
+		
+		try {
+			cn = DriverManager.getConnection(url, username, password);
+			st = cn.createStatement();
+			int i = st.executeUpdate(insertCommand);
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+		
+		
+		
+		
+	}
+
+}

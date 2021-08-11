@@ -1,0 +1,16 @@
+package com.telstra.jdbc;
+
+public class JDBCInsertDemo {
+	
+	public static void main(String[] args) {
+		
+		String url = "jdbc:mysql://localhost:3306:telstra";
+		
+		String username = "root";
+		String password = "Abhijeet";
+		
+		
+		
+	}
+
+}

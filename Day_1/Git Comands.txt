@@ -1,0 +1,46 @@
+git config --global user.name "UserName"
+git config --global user.email "EmailID"
+
+git config --global core.editor emacs
+git config --global core.autocrlf true
+
+git init
+it clone 
+
+git status
+
+git add filename
+
+git restore --stage filename
+
+git commit -m "Message"
+
+git commit -am "Add and commit"
+
+git status -s
+
+git diff --staged
+
+git log
+
+git log --oneline
+
+git log --oneline --reverse
+
+git show Commmit_ID
+
+git show HEAD
+
+git show HEAD~1
+
+git remote add origin 
+
+git push -u origin master
+
+git checkout Commmit_ID
+
+git remote add <name> <url>
+
+git push <remote> <branch>
+
+git pull <remote>
