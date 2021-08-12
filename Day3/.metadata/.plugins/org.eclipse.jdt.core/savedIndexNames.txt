@@ -1,0 +1,7 @@
+INDEX VERSION 1.131+C:\My data\Telstra\week4\day3\.metadata\.plugins\org.eclipse.jdt.core
+742259344.index
+215057795.index
+1982259716.index
+1468007358.index
+2538988250.index
+2285193538.index

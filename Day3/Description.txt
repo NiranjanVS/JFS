@@ -1,0 +1,14 @@
+This folder consist of one Maven Project named "springcore"
+
+In this project, we explored the spring core and spring context framework.
+
+	- We created a maven project
+	- Then we added the spring core and spring context dependencies in pom.xml
+	- Then We created a "Student" entity.
+	- Then we created a config.xml file
+	- we defined the bean there for Student entity using default constructor
+
+	- Then We created a "Person" entity having HAS-A relation with "Cert" class
+	- We created ciconfig.xml file
+	- we created bin for Cert class and passed its refernce in Person bean.
+	
