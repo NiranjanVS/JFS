@@ -14,6 +14,6 @@ public class UserService implements UserDetailsService {
     public UserDetails loadUserByUsername(String userName) throws UsernameNotFoundException {
         //logic to get user from database
 
-        return new User("admin","admin",new ArrayList<>());
+        return new User("user","password",new ArrayList<>());
     }
 }
