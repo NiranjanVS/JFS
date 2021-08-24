@@ -1,0 +1,20 @@
+h1{
+    color: blueviolet !important;
+}
+/*id selector*/
+#info{
+    color: goldenrod;
+    width: 500px;
+}
+
+/* .list{
+    color: crimson;
+} */
+
+#listOne li, #listTwo li{
+   color: crimson; 
+}
+
+#listTwo li{
+    list-style: none;
+}
