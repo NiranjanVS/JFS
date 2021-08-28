@@ -1,0 +1,12 @@
+
+\
+java:S1068",Remove this unused "password" private field.(¥Ÿ¸¼ùÿÿÿÿHRMAJORZ
+CODE_SMELL
+W
+java:S1068"'Remove this unused "uri" private field.(´²ŠðüÿÿÿÿHRMAJORZ
+CODE_SMELL
+V
+java:S1068",Remove this unused "username" private field.(´ÄñdHRMAJORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(áéóÉþÿÿÿÿHRMINORZ
+CODE_SMELL

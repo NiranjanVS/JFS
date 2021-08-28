@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent1, #parent2{
+            background-color: gold;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        #child1, #child2{
+            background-color: tomato;
+            color:aliceblue;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <a id="anc" href="https://www.google.com">Go to Google</a>
+    <div id="parent1">
+        I am a parent Element
+        <p id="child1"> I am a child element</p>
+    </div>
+
+    <div id="parent2">
+        I am a parent Element
+        <p id="child2"> I am a child element</p>
+    </div>
+
+    <!-- <button onclick="welcome()">Click Me</button>
+    <button id="btn">Click Me</button> -->
+</body>
+<script src="events.js"></script>
+<script>
+    // function welcome(){
+    //     alert("I am an event")
+    // }
+</script>
+</html>

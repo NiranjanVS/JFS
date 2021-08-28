@@ -1,0 +1,14 @@
+
+[
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒHRMINORZ
+CODE_SMELL
+k	java:S125"<This block of commented-out lines of code should be removed.(¨§…ðÿÿÿÿÿHRMAJORZ
+CODE_SMELL
+o
+java:S1128"?Remove this unused import 'com.mongodb.client.MongoCollection'.(ÂéüûÿÿÿÿHRMINORZ
+CODE_SMELL
+‰	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Â´ß™ýÿÿÿÿHRMINORZ
+CODE_SMELL
+Y
+java:S1128".Remove this unused import 'org.bson.Document'.(ÙË®“HRMINORZ
+CODE_SMELL
